@@ -8,7 +8,7 @@ from helpers import extract_code
 app = Flask(__name__)
 
 # Set up an OpenAI API client with your API key
-openai.api_key = "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"
+openai.api_key = "<your-api-key>"
 
 # Get the database schema
 rules_file = open('rules.txt', 'r')
